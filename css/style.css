@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+.parent{
+  text-align: center;
+  margin-top: 50px;
+}
+h1{
+  font-size: 80px;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+p{
+  font-size: 35px;
+  margin: 50px 0;
+}
+button{
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+button:hover{
+  background-color: green;
+}
